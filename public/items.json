@@ -1,0 +1,460 @@
+{
+  "wardrobe": [
+    {
+      "id": 1,
+      "name": "ChillWaves Sweater",
+      "durability": 40,
+      "price": 12,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/chillwaves_sweater.png"
+    },
+    {
+      "id": 2,
+      "name": "H&N Skinny Jeans",
+      "durability": 100,
+      "price": 50,
+      "type": "Bottoms",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/h&n_skinny_jeans.png"
+    },
+    {
+      "id": 3,
+      "name": "Timeless Flannel Shirt",
+      "durability": 85,
+      "price": 60,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/timeless_flannel_shirt.png"
+    }
+  ],
+
+  "store": [
+    {
+      "id": 4,
+      "name": "UrbanBasics Tee",
+      "durability": 100,
+      "price": 15,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/streetstyle_T-shirt.png",
+      "eventId": 1
+    },
+    {
+      "id": 5,
+      "name": "SlimFlex Chinos",
+      "durability": 100,
+      "price": 50,
+      "type": "Bottoms",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/h&n_skinny_jeans.png",
+      "eventId": 1
+    },
+    {
+      "id": 6,
+      "name": "RetroVibe Jacket",
+      "durability": 65,
+      "price": 35,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/timeless_flannel_shirt.png",
+      "eventId": 1
+    },
+    {
+      "id": 7,
+      "name": "StreetStyle Hoodie",
+      "durability": 100,
+      "price": 30,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/streetstyle_hoodie.png",
+      "eventId": 2
+    },
+    {
+      "id": 8,
+      "name": "Classic Blue Jeans",
+      "durability": 100,
+      "price": 60,
+      "type": "Bottoms",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/classic_blue_jeans.png",
+      "eventId": 2
+    },
+    {
+      "id": 9,
+      "name": "ChillWaves Sweater",
+      "durability": 68,
+      "price": 28,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/chillwaves_sweater.png",
+      "eventId": 2
+    },
+    {
+      "id": 10,
+      "name": "BasicFit Tank Top",
+      "durability": 100,
+      "price": 10,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/basicfit_tanktop.png",
+      "eventId": 3
+    },
+    {
+      "id": 11,
+      "name": "Heritage Cargo Pants",
+      "durability": 100,
+      "price": 45,
+      "type": "Bottoms",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/cargo_pants.png",
+      "eventId": 3
+    },
+    {
+      "id": 12,
+      "name": "Timeless Flannel Shirt",
+      "durability": 75,
+      "price": 25,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/timeless_flannel_shirt.png",
+      "eventId": 3
+    },
+    {
+      "id": 13,
+      "name": "Halloween Costume",
+      "durability": 100,
+      "price": 40,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/halloween-costume.png",
+      "eventId": 4
+    },
+    {
+      "id": 14,
+      "name": "Angel Costume",
+      "durability": 100,
+      "price": 55,
+      "type": "Tops",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/halloween-angel.png",
+      "eventId": 4
+    },
+    {
+      "id": 15,
+      "name": "Halloween Dress",
+      "durability": 60,
+      "price": 40,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/halloween-dress.png",
+      "eventId": 4
+    },
+    {
+      "id": 16,
+      "name": "Black Pjama's",
+      "durability": 100,
+      "price": 40,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/h&n_black_t-shirt.png",
+      "eventId": 5
+    },
+    {
+      "id": 17,
+      "name": "Grey Pjama Pants",
+      "durability": 100,
+      "price": 55,
+      "type": "Bottoms",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/ecowear_joggers.png",
+      "eventId": 5
+    },
+    {
+      "id": 18,
+      "name": "Pjama's",
+      "durability": 90,
+      "price": 35,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/pyamas.png",
+      "eventId": 5
+    },
+    {
+      "id": 19,
+      "name": "StreetStyle Hoodie",
+      "durability": 100,
+      "price": 40,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/streetstyle_hoodie.png",
+      "eventId": 6
+    },
+    {
+      "id": 20,
+      "name": "EcoWear Joggers",
+      "durability": 100,
+      "price": 55,
+      "type": "Bottoms",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/ecowear_joggers.png",
+      "eventId": 6
+    },
+    {
+      "id": 21,
+      "name": "Basic-Fit Tanktop",
+      "durability": 90,
+      "price": 35,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/basicfit_tanktop.png",
+      "eventId": 6
+    },
+    {
+      "id": 22,
+      "name": "H&N Black T-shirt",
+      "durability": 55,
+      "price": 20,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/h&n_black_t-shirt.png",
+      "eventId": 7
+    },
+    {
+      "id": 23,
+      "name": "Blue Jeans",
+      "durability": 80,
+      "price": 50,
+      "type": "Bottoms",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/classic_blue_jeans.png",
+      "eventId": 7
+    },
+    {
+      "id": 24,
+      "name": "Black Flannel Shirt",
+      "durability": 85,
+      "price": 60,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/black-flannel.png",
+      "eventId": 7
+    },
+    {
+      "id": 25,
+      "name": "Cozy Hoodie",
+      "durability": 60,
+      "price": 30,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/streetstyle_hoodie.png",
+      "eventId": 8
+    },
+    {
+      "id": 26,
+      "name": "H&N Skinny Jeans",
+      "durability": 95,
+      "price": 70,
+      "type": "Bottoms",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/h&n_skinny_jeans.png",
+      "eventId": 8
+    },
+    {
+      "id": 27,
+      "name": "Winter Knit Sweater",
+      "durability": 70,
+      "price": 55,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/chillwaves_sweater.png",
+      "eventId": 8
+    },
+    {
+      "id": 28,
+      "name": "Orange Dress",
+      "durability": 50,
+      "price": 18,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/kingsday-dress.png",
+      "eventId": 9
+    },
+    {
+      "id": 29,
+      "name": "Orange Top",
+      "durability": 70,
+      "price": 40,
+      "type": "Tops",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/kingsday-top.png",
+      "eventId": 9
+    },
+    {
+      "id": 30,
+      "name": "Orange T-Shirt",
+      "durability": 45,
+      "price": 25,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/kingsday-tshirt.png",
+      "eventId": 9
+    },
+    {
+      "id": 31,
+      "name": "Pink Less-Stylish Dress",
+      "durability": 50,
+      "price": 50,
+      "type": "Tops",
+      "sourceLong": "Fast Fashion",
+      "source": "FF",
+      "image": "/src/assets/clothes_for_game/poor-prom-dress.svg",
+      "eventId": 10
+    },
+    {
+      "id": 32,
+      "name": "Blue Flowery Stylish Dress",
+      "durability": 70,
+      "price": 100,
+      "type": "Tops",
+      "sourceLong": "Reliable Brand",
+      "source": "RB",
+      "image": "/src/assets/clothes_for_game/rich-prom-dress.svg",
+      "eventId": 10
+    },
+    {
+      "id": 33,
+      "name": "Light Blue Sparkly Dress",
+      "durability": 45,
+      "price": 80,
+      "type": "Tops",
+      "sourceLong": "Second Hand",
+      "source": "SH",
+      "image": "/src/assets/clothes_for_game/middle-prom-dress.svg",
+      "eventId": 10
+    }
+  ],
+
+  "events": [
+    {
+      "eventId": 1,
+      "eventName": "First Day of School",
+      "eventText": "It’s the first day of school. You have a few Fast Fashion pieces in your wardrobe. You can either buy new ones or decide to wear what you already have.",
+      "outcomes": {
+        "boughtNewItem": "You bought a new outfit, but it felt like everyone else had the same thing.",
+        "woreOldItem": "You wore your existing clothes, styled them creatively, and got compliments for being unique!"
+      }
+    },
+    {
+      "eventId": 2,
+      "eventName": "Popular Girl's Birthday",
+      "eventText": "It’s the popular girl’s birthday. All your friends will be there, and you want to look good in front of them.",
+      "outcomes": {
+        "boughtNewItem": "You bought a trendy outfit, but it didn’t stand out in the crowd.",
+        "woreOldItem": "You upcycled an old piece with accessories, and everyone admired your creativity!"
+      }
+    },
+    {
+      "eventId": 3,
+      "eventName": "Friend Gathering",
+      "eventText": "You are going to a friend gathering this Friday to eat, have fun, and gossip.",
+      "outcomes": {
+        "boughtNewItem": "You wore a new outfit, but it felt like a waste for a casual night.",
+        "woreOldItem": "You reused your wardrobe, and your friends praised your sustainable mindset."
+      }
+    },
+    {
+      "eventId": 4,
+      "eventName": "Halloween Party",
+      "eventText": "Halloween party coming. You can either buy a costume or make one yourself.",
+      "outcomes": {
+        "boughtNewItem": "You bought a costume, but a few others had the exact same one.",
+        "woreOldItem": "You crafted your own costume, and it became the talk of the party for its originality!"
+      }
+    },
+    {
+      "eventId": 5,
+      "eventName": "Pajama Party",
+      "eventText": "There’s a pajama party. You can use your real one, but you are worried it is old and they will make fun of you.",
+      "outcomes": {
+        "boughtNewItem": "You bought a fancy new pajama, but it wasn’t as cozy as your old one.",
+        "woreOldItem": "You wore your old pajama confidently, and nobody cared—it’s about having fun!"
+      }
+    },
+    {
+      "eventId": 6,
+      "eventName": "Sports Day",
+      "eventText": "You started doing sport activities, but you don’t have sweatpants. You have to buy ones, or train in jeans.",
+      "outcomes": {
+        "boughtNewItem": "You bought sweatpants, but it cost more than you expected.",
+        "woreOldItem": "You found second-hand sportswear or borrowed from a friend, feeling resourceful!"
+      }
+    },
+    {
+      "eventId": 7,
+      "eventName": "New Year Party",
+      "eventText": "New Year is coming, and you are invited to a big party. You have to be in something black though.",
+      "outcomes": {
+        "boughtNewItem": "You bought something black, but it felt wasteful for a single night.",
+        "woreOldItem": "You reused an older black item and accessorized it, looking elegant and unique!"
+      }
+    },
+    {
+      "eventId": 8,
+      "eventName": "Crush's Birthday",
+      "eventText": "Your crush has a birthday, and you are invited. All your friends are telling you to wear something nice to impress him.",
+      "outcomes": {
+        "boughtNewItem": "You bought a new outfit, but it didn’t feel as special as you hoped.",
+        "woreOldItem": "You styled your favorite pieces confidently and caught your crush’s attention!"
+      }
+    },
+    {
+      "eventId": 9,
+      "eventName": "Kingsday Celebration",
+      "eventText": "It’s Kingsday. You have to buy something orange!",
+      "outcomes": {
+        "boughtNewItem": "You bought a new orange item, but you’ll probably never wear it again.",
+        "woreOldItem": "You borrowed or reused something orange, blending in while saving money!"
+      }
+    },
+    {
+      "eventId": 10,
+      "eventName": "Prom Night",
+      "eventText": "Prom is coming. You have to buy a dress.",
+      "outcomes": {
+        "boughtNewItem": "You bought an trendy dress. At prom, everyone is blown away by how stunning you look, and it’s the talk of the night.",
+        "woreOldItem": "You chose to wear a dress you already had, but with your own creative twist. The dress might not have been the latest trend, but you looked effortlessly stunning. At prom, everyone was impressed with how original and confident you looked, and you felt truly comfortable in your own skin."
+      }
+    }
+  ]
+}

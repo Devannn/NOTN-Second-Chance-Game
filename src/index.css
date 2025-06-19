@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+
+  /* COLORS */
+  --cooler-pink:#ffc0cb;
+
+  --pink: #C79DA5;
+  --lighter-pink: #E3CACF;
+  --darker-pink:#7A525A;
+
+  --green:#4D9042;
+  --lighter-green: #A0CC99;
+  --darker-green: #2E3D28;
+
+  --white: #F1EAE0;
+  --beige: #F5C683;
+  --off-white: #C8BCAC;
+
+  --black: #292929;
+  --grey: #525151;
+  --lighter-gray: #707070; 
+
+  /* TYPOGRAPHY */
+
+  --h1: 42px;
+  --h2:37px;
+  --h3:28px;
+  --body: 18px;
+  --button: 24px;
+  --caption: 14px;
+  --footer: 10px;
+
+  --line-height: 1.5; 
+  --letter-spacing: 1.5%; 
+}
+
+body{
+  background-color: #292929;
+}

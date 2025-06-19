@@ -1,0 +1,144 @@
+.carousel {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  .card-container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 10px 15px 0px 0px #000;
+    overflow: hidden;
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card .front-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background: var(--pink);
+    border-radius: 25px;
+    
+  }
+  
+  .card .front-content img {
+    width: 75%;
+    height: 75%;
+    opacity: 1;
+    transition: all 1s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .card .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background: var(--darker-pink);
+    color: #E3CACF;
+    font-family: Rubik;
+    border-radius: 25px;
+    transform: translateY(100%);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    gap: 0px !important;
+  }
+  
+  .price-text {
+    padding: 10px 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    font-family: Rubik;
+  }
+  
+  .card .content p {
+    font-size: 16px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: Rubik;
+  }
+  
+  .card .content .heading {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Rubik;
+  }
+  
+  .card .content .content-more-info {
+    width: 75%;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .card .content .content-more-info p {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  
+  .card:hover .content {
+    transform: translateY(0);
+    
+  }
+  
+  .card:hover .front-content img {
+    transform: translateY(-50%);
+    opacity: 0;
+  
+  }
+  
+  .confirm-button {
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: var(--pink);
+    padding: 15px 50px;
+    margin-top: 25px;
+    box-shadow: 5px 8px 0px 0px #000;
+    border: #000;
+    color: #000;
+  }
+  
+  .confirm-button:hover {
+    cursor: pointer;
+    border: #000;
+  }
+  
+  .confirm-button:active {
+    background-image: linear-gradient(to right, #A0CC99 0%, #A0CC99 50%, var(--pink) 50%, var(--pink) 100%);
+    background-size: 200% 100%;
+    background-position: 100%;
+    animation: 1s confirmation ease-out forwards;
+  }
+  
+  @keyframes confirmation {
+    from {
+        background-position: 100%;
+    }
+    to {
+        background-position: 0%;
+    }
+  }
+  
+  #store-button {
+    height: 3.5rem !important;
+  }

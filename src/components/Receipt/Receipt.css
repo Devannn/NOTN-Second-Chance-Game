@@ -1,0 +1,85 @@
+.container-receipt {
+    width: 900px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    max-height: 110px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    pointer-events: none;
+
+    z-index: 11;
+}
+
+.receipt {
+    background-color: white;
+    overflow: hidden;
+    padding: 20px 0;
+    margin: 15px 0px 0px 20px;
+    text-transform: uppercase;
+    font-family: 'Fake Receipt', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    pointer-events: auto;
+}
+
+.container-receipt:hover {
+    max-height: 100%;
+}
+
+.receipt-logo img {
+    width: 80px;
+}
+.receipt p {
+    all: unset;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-family: 'Fake Receipt', sans-serif;
+}
+
+.items {
+    /* max-height: 110px; */
+    overflow-y: auto;
+}
+
+.items button {
+    margin: 0 auto;
+    padding: 0px;
+    width: 80%;
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Fake Receipt', sans-serif;
+}
+
+.receipt-item-name {
+    width: 200px;
+    text-align: left;
+}
+
+.scrollable-text {
+    display: inline-block;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  
+  /* Enables horizontal scrolling */
+  .scrollable-text:hover {
+    overflow-x: scroll;
+  }
+  
+  /* Hide the scrollbar (for cleaner UI) */
+  .scrollable-text::-webkit-scrollbar {
+    display: none;
+  }

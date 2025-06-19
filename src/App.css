@@ -1,0 +1,10 @@
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+
+  position: absolute;
+  bottom: 5rem;
+  padding: 0 7rem;
+}

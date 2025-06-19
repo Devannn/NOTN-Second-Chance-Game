@@ -1,0 +1,21 @@
+.dead-clothing-bg {
+  /* LAYOUT */
+  display: flex;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+}
+
+.dead-clothing-bg img {
+  object-fit: contain;
+  opacity: 70%;
+}
+
+.dead-clothing-bg::after {
+  content: url("../../assets/dead_clothing_X.png") ;
+  position: absolute;
+}

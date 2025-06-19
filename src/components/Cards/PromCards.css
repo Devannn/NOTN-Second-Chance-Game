@@ -1,0 +1,107 @@
+.prom-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6rem;
+}
+
+.dress-container-intro {
+  /* LAYOUT */
+  display: flex;
+  justify-content: center;
+  background-color: #80808047;
+  border-radius: 1.6rem;
+  padding: 1rem 1.5rem;
+  width: 11rem;
+  height: 11rem;
+  position: relative;
+}
+
+.dress-container-intro img {
+  object-fit: contain;
+  opacity: 50%;
+  filter: blur(1.5px);
+}
+
+.dress-container-intro::after {
+  content: url("../../assets/prom-dress-lock.png");
+  position: absolute;
+  bottom: 2.4rem;
+}
+
+/* ---------------------------FOR PROM------------------------- */
+
+.dress-container-prom {
+  /* LAYOUT */
+  display: flex;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: 1.6rem;
+  padding: 1rem 1.5rem;
+  width: 11rem;
+  height: 11rem;
+  position: relative;
+}
+
+.card-price-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.dress-container-prom img {
+  object-fit: contain;
+}
+
+.dress-container-prom {
+  mask-image: linear-gradient(
+    -75deg,
+    rgb(203 189 189 / 80%) 30%,
+    #e8dcdc 50%,
+    rgb(213 198 198 / 81%) 70%
+  );
+  mask-size: 200%;
+  mask-position: 150%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dress-container-prom:hover {
+  transform: scale(1.02);
+  animation: shine 0.5s ease-in-out 1;
+}
+
+/* Define the shine animation */
+@keyframes shine {
+  from {
+    mask-position: 150%;
+  }
+  to {
+    mask-position: -10%;
+  }
+}
+
+.card-price-wrapper p {
+  color: var(--white, #f1eae0);
+  text-align: center;
+
+  font-family: Rubik;
+  font-size: var(--button);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.78125rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+.card-price-wrapper span {
+  color: var(--lighter-green, #a0cc99);
+
+  font-family: Rubik;
+  font-size: var(--button);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.78125rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}

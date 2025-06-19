@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel</title>
+  <link rel="stylesheet" href="carousel.css">
+  <link rel="stylesheet" href="tiles.css">
+  <link rel="stylesheet" href="button.css">
+</head>
+<body>
+    <div class="container">
+        <input type="radio" name="slider" id="item-1" checked>
+        <input type="radio" name="slider" id="item-2">
+        <input type="radio" name="slider" id="item-3">
+      <div class="cards">
+        <label class="card" for="item-1" id="song-1">
+            <div class="cardm">
+                <div class="item-card">
+                  <img class="item-image" src="dress.png">
+                  <div class="button-container">
+                      <div class="progress-bar"></div>
+                      <button id="holdButton">PURCHASE</button>
+                  </div>
+              
+                </div>
+              
+                <div class="item-card2">
+                  <div class="upper">
+                      <div class="item-name" >Yellow Dress</div>
+                      <div class="item-price" >20 EUR</div>
+                  </div>
+              
+                  <div class="lower">
+                      <div>Type..............................TOP</div>
+                      <div>Durability........................70%</div>
+                      <div>Source.............................SH</div>
+                  </div>
+                </div>
+              </div>
+            </label>
+        <label class="card" for="item-2" id="song-2">
+            <div class="cardm">
+                <div class="item-card">
+                  <img class="item-image" src="shorts.png">
+          
+                  <div class="button-container">
+                      <div class="progress-bar"></div>
+                      <button id="holdButton">PURCHASE</button>
+                  </div>
+              
+                </div>
+              
+                <div class="item-card2">
+                  <div class="upper">
+                      <div class="item-name" >Beach Shorts</div>
+                      <div class="item-price" >15 EUR</div>
+                  </div>
+              
+                  <div class="lower">
+                      <div>Type........................BOTTOM</div>
+                      <div>Durability......................100%</div>
+                      <div>Source............................FF</div>
+                  </div>
+                </div>
+              </div>
+        </label>
+        <label class="card" for="item-3" id="song-3">
+            <div class="cardm">
+                <div class="item-card">
+                  <img class="item-image" src="pinkshirt.png">
+          
+                  <div class="button-container">
+                      <div class="progress-bar"></div>
+                      <button id="holdButton">PURCHASE</button>
+                  </div>
+              
+                </div>
+              
+                <div class="item-card2">
+                  <div class="upper">
+                      <div class="item-name" >Designer T-shirt</div>
+                      <div class="item-price" >40 EUR</div>
+                  </div>
+              
+                  <div class="lower">
+                      <div>Type..............................TOP</div>
+                      <div>Durability.......................100%</div>
+                      <div>Source.............................HF</div>
+                  </div>
+                </div>
+              </div>
+        </label>
+      </div>
+     
+    </div>
+
+  <script src="button.js"></script>
+  <script src="carousel.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* .onboarding-wrapper img {
+  height: 100vh; 
+  width: auto;
+  position: absolute;
+} */
+
+.onboarding-wrapper {
+  background-image: url("../../assets/start-screen.png");
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100vw;
+  height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: end;
+  padding: 5%;
+}

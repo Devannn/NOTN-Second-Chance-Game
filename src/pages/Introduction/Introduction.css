@@ -1,0 +1,111 @@
+
+body{
+  background-image: url("../../assets/bg-intro.png");
+  background-size: cover;
+}
+
+.introduction-wrapper {
+  /* background-size: cover; */
+  /* height: 100vh; */
+  /* width: 100vw; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  /* height: 100%; */
+  width: 100%;
+  gap: 3rem;
+}
+
+.introduction-wrapper h2 {
+  color: var(--white, #f1eae0);
+  text-align: center;
+  width: 50ch;
+  padding: 0 2.5em;
+  font-family: Rubik;
+  font-size: var(--h2);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.03469rem;
+  width: 45ch;
+}
+
+.button-wrapper-intro {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  width: 100%;
+
+  position: absolute;
+  /* height: 100%; */
+  bottom: 5rem;
+  padding: 0 7rem;
+}
+
+/* INTRODUCTION 3 */
+
+h1 {
+  color: var(--Whiteish, #f1eae0);
+  text-align: center;
+
+  font-family: Rubik;
+  font-size: var(--h1);
+  font-style: normal;
+  font-weight: 700;
+  line-height: var(--line-height);
+  letter-spacing: 0.045rem;
+
+  /* width: 45ch; */
+  padding: 0 2.5em;
+}
+
+.bg-intro-img {
+  width: 12%;
+  margin-top: 3.5rem;
+}
+
+.intro-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+p {
+  color: var(--Whiteish, #f1eae0);
+  text-align: center;
+
+  font-family: Rubik;
+  font-size: var(--body);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: 0.01688rem;
+}
+
+h3 {
+  color: var(--Whiteish, #f1eae0);
+  text-align: center;
+
+  font-family: Rubik;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.0625rem;
+  letter-spacing: 0.02625rem;
+}
+
+.intro-4-information{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,67 @@
+.header-progressbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+
+  margin-top: 1rem;
+  height: 8rem;
+}
+
+.header-progressbar > img {
+  width: 30%;
+  height: 65%;
+}
+
+.progressline-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  color: var(--Whiteish, #f1eae0);
+  /* Captions */
+  font-family: Rubik;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0.01313rem;
+}
+
+.progressline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2.5rem;
+
+  position: relative;
+}
+
+.progressline::before {
+  content: "";
+  position: absolute;
+  top: 1.2rem;
+  height: 0.3rem;
+  width: 100%;
+  background-color: var(--white);
+  z-index: -1;
+}
+
+.progressline-events {
+  display: flex;
+  flex-direction: row;
+  gap: 1.7rem;
+}
+
+.balance-container span {
+  color: var(--green);
+  margin-right: 1rem;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

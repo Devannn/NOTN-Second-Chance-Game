@@ -1,0 +1,71 @@
+.wardrobe-bg-wrapper {
+  width: 53rem;
+  height: 30rem;
+  padding: 1.5rem;
+
+  border-radius: 0.625rem;
+  background: var(--darker-pinkish, #7a525a);
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wardrobe-bg-wrapper::before {
+  content: "";
+  width: 50rem;
+  height: 27rem;
+
+  border-radius: 0.625rem;
+  border: 3px dashed var(--black, #292929);
+
+  position: absolute;
+}
+
+.wardrobe-bg-wrapper > h1 {
+  /* LAYOUT */
+  position: absolute;
+  top: -40px;
+
+  /* H1 */
+  font-family: Rubik;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.4375rem;
+  letter-spacing: 0.045rem;
+  color: var(--black, #292929);
+
+  /* STYLING */
+  padding: 1rem 2rem;
+  background-color: var(--white);
+  border-radius: 0.6rem;
+}
+
+.wardrobe-info-container {
+
+  width: 35rem;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.first-textbox{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.button-continue {
+  width: 100%;
+  text-align: end;
+  z-index: 1;
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+}

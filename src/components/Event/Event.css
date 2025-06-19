@@ -1,0 +1,172 @@
+  .button-choice {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .continue-button {
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #C79DA5;
+    padding: 15px 50px;
+    margin-top: 25px;
+    box-shadow: 5px 8px 0px 0px #000;
+    border: #000;
+    color: #000;
+    font-family: Rubik;
+    margin: 1rem 10px 0rem;
+  }
+
+  .event-buttons {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .wardrobe-button {
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #C79DA5;
+    padding: 15px 50px;
+    margin-top: 25px;
+    box-shadow: 5px 8px 0px 0px #000;
+    border: #000;
+    color: #000;
+    font-family: Rubik;
+  }
+  
+  .card-container-event {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 10px 15px 0px 0px #000;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .card-event {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-event .front-content-event {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #C79DA5;
+    border-radius: 25px;
+  }
+
+  #front-content-event-1 {
+    background-image: url(/src/assets/events/event-1.png), url(/src/assets/events/fallback-event.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #front-content-event-2 {
+    background-image: url(/src/assets/events/event-2.png), url(/src/assets/events/fallback-event.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #front-content-event-3 {
+    background-image: url(/src/assets/events/event-3.png), url(/src/assets/events/fallback-event.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #front-content-event-4 {
+    background-image: url(/src/assets/events/event-4.png), url(/src/assets/events/fallback-event.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #front-content-event-5 {
+    background-image: url(/src/assets/events/event-5.png), url(/src/assets/events/fallback-event.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #front-content-event-6 {
+    background-image: url(/src/assets/events/event-6.png), url(/src/assets/events/fallback-event.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #front-content-event-7 {
+    background-image: url(/src/assets/events/event-7.png), url(/src/assets/events/fallback-event.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #front-content-event-8 {
+    background-image: url(/src/assets/events/event-8.png), url(/src/assets/events/fallback-event.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #front-content-event-9 {
+    background-image: url(/src/assets/events/event-9.png), url(/src/assets/events/fallback-event.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #front-content-event-10 {
+    background-image: url(/src/assets/events/event-10.png), url(/src/assets/events/fallback-event.png);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .card-event .front-content-event img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+  }
+  
+  .card-event .content-event {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background: #7A525A;
+    color: #E3CACF;
+    border-radius: 25px;
+    transform: translateY(100%);
+    transition: all 1s cubic-bezier(0.23, 1, 0.320, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-event .content-event p {
+    font-size: medium;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: Rubik;
+  }
+  
+  .card-event .content-event .heading-event {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .text-event {
+    margin: 2rem 0rem;
+  }
+  
+  .card-event:hover .content-event {
+    transform: translateY(0);
+  }
+  
+  .card-event:hover .front-content-event img {
+    transform: translateY(-20%);
+  }

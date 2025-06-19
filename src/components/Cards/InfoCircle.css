@@ -1,0 +1,51 @@
+.rule_box {
+  background-color: var(--green);
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  /* margin: 5rem 0; */
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Changed it from 'center'so the Rules and button stay at the same place- Plamena*/
+  text-align: center;
+  gap: 2rem;
+}
+
+.rule_box p {
+  color: black;
+  /* Body */
+  font-family: Rubik;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: 0.01688rem;
+}
+
+.rule_box h1 {
+  color: black;
+  /* H1 */
+  font-family: Rubik;
+  font-size: var(--h1);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.4375rem;
+  letter-spacing: 0.045rem;
+}
+
+.rule_box.animate {
+  animation-name: bigger;
+  animation-duration: 2s;
+}
+
+@keyframes bigger {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(5);
+    opacity: 0;
+  }
+}

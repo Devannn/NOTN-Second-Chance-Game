@@ -1,0 +1,162 @@
+body {
+  font-family: Rubik;  
+  background-color: var(--black); 
+  background-image: url("/src/assets/bg-game.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.game-nav {
+  display: flex;
+  height: 15vh;
+  width: 100vw;
+  /* background-color: var(--black); */
+}
+
+.logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 70%;
+}
+
+.timeline-container {
+  flex: 3;
+  color: white;
+  /* gap: 0vw; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 20px; */
+}
+
+.game-main {
+  min-height: 85vh !important;
+}
+
+.timeline {
+  margin-top: 5vh;
+  gap: 0vw;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background: #F1EAE0;
+  border: 10px solid var(--cooler-pink);
+  color: white;
+  text-align: center;
+  font: 20px Poppins, sans-serif;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.circle-check {
+  position: fixed;
+  margin-top: -12.5px;
+  margin-left: -12.5px;
+  width: 25px;
+  height: 25px;
+}
+
+.circle p {
+  margin-top: 25px;
+  margin-left: -50px;
+  width: 100px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.dash {
+  width: 10%;
+  background-image: linear-gradient(
+    to right,
+    white 50%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: center;
+  background-size: 7px 5px;
+  background-repeat: repeat-x;
+}
+
+.timeline>.active {
+  background-color: var(--green);
+  border: 10px solid var(--green);
+}
+
+.balance-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance-container p {
+  color: white;
+  font-size: 3rem;
+}
+
+.balance span {
+  margin: 1rem;
+  color: var(--green);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: end;
+  padding: 5%;
+}
+
+.event-container {
+  
+}
+
+.event-card {
+  background-color: var(--darker-pink);
+  background-color: transparent;
+  padding: 6rem 6rem;
+  width: 800px;
+  border-radius: 25px;
+}
+
+.event-card>.event-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.days-passed-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+
+.title-wrapper h2 {
+  font-weight: bold !important;
+}
+
+.title-wrapper h3 {
+  font-weight: normal !important;
+}
+
+.stats-ul {
+  color: white;
+  font-size: 1.1rem;
+}

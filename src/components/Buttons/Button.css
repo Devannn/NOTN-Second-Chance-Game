@@ -1,0 +1,46 @@
+.primary-button {
+  display: inline-flex;
+  height: 5rem;
+  padding: 1rem 1.75rem;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.625rem;
+  background: var(--cooler-pink, #ffc0cb);
+
+  box-shadow: 5px 8px 0px 0px #000;
+
+  color: var(--black, #292929);
+  text-align: center;
+  border: none;
+
+  /* Button text */
+  font-family: Rubik;
+  font-size: var(--button);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+  transition: ease-in 100ms;
+}
+
+.primary-button:hover {
+  display: inline-flex;
+  height: 5rem;
+  padding: 1rem 1.78rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.625rem;
+  background: var(--darker-pink, #7a525a);
+  box-shadow: 0px 0px 0px 0px #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+  border: 2px solid white;
+}

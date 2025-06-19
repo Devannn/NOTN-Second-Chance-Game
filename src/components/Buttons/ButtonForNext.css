@@ -1,0 +1,16 @@
+.next-button {
+  /* Button text */
+  font-family: Rubik;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.7rem;
+  letter-spacing: 0.15rem;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  color: var(--lighter-pink) !important;
+}
